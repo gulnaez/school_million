@@ -22,11 +22,11 @@ public class StartGame {
                     Game g = new Game();
                     g.startquiz();
                 } else if (option == 2) {
-//                    Game g = new Game();
-//                    g.startquiz();
+                    Math g = new Math();
+                    g.startquiz();
                 } else if (option == 3) {
-//                    Game g = new Game();
-//                    g.startquiz();
+           english g = new english();
+               g.startquiz();
                 } else {
                     break;
                 }
