@@ -19,14 +19,14 @@ public class StartGame {
                 System.out.print("Enter option (1-3): ");
                 int option = scanner.nextInt();
                 if (option == 1) {
-                    Game g = new Game();
+                    History g = new History();
                     g.startquiz();
                 } else if (option == 2) {
                     Math g = new Math();
                     g.startquiz();
                 } else if (option == 3) {
-//                    Game g = new Game();
-//                    g.startquiz();
+                    english g = new english();
+                    g.startquiz();
                 } else {
                     break;
                 }
