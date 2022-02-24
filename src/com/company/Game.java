@@ -18,6 +18,7 @@ public class Game {
         questionSet.add(new Question(q, a, "Tokyo"));
         Collections.shuffle(questionSet, new Random());
     }
+
     public void startquiz() {
         Scanner scan = new Scanner(System.in);
         int numCorrect = 0;
